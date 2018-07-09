@@ -32,6 +32,7 @@ spec:
         image: " "
         ports:
         - containerPort: 8080
+        - containerPort: 1337
         readinessProbe:
           timeoutSeconds: 3
           initialDelaySeconds: 3
